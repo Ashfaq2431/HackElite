@@ -1,0 +1,22 @@
+{
+  "name": "campusconnect-portal",
+  "version": "1.0.0",
+  "description": "CampusConnect - College Community Portal (MERN Stack)",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "install-all": "npm --prefix server install && npm --prefix client install",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "mern",
+    "college-portal",
+    "campus-community",
+    "student-engagement",
+    "clubs",
+    "events"
+  ],
+  "author": "CampusConnect Team",
+  "license": "ISC"
+}
